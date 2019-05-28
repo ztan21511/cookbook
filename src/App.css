@@ -1,0 +1,276 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Second heading sizing */
+h2 {
+    font-size: 2.5em;
+}
+
+body h1,
+body h2,
+body .pseudo-heading {
+    font-family: 'Halant', serif;
+}
+
+/* Format background for header and footer */
+header,
+footer {
+    background-color: rgba(220, 199, 170, 0.9);
+}
+
+/* format images in header and footer */
+header img {
+    height: 30px;
+}
+
+/* style log in box */
+
+.username, .email, .password {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sign-in, .sign-up{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.sign-up {
+    margin-right: 1rem;
+}
+
+table tr th:nth-of-type(1) {
+    width: 95%;
+}
+
+table tr th:nth-of-type(2) {
+    width: 5%;
+}
+
+td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* Set auto margins */
+.row .col p {
+    margin: auto;
+}
+
+/* Increases size of text for card titles */
+.card-title {
+    font-size: 2em;
+}
+
+/* For the first banner on a page */
+.banner-1 {
+    background-color: rgba(247, 195, 49, .95);
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    margin: 0;
+}
+
+/* For the second banner on a page */
+.banner-2 {
+    background-color:white;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* For the third banner on a page */
+.banner-3 {
+    color: black;
+    margin: 0;
+}
+
+/* Gives a translucent black background with padding around element */
+.shade-bg {
+    background-color: rgba(247, 136, 47, .15);
+    padding: 1rem;
+}
+
+/* For text with image or colored backgrounds, first style */
+.image-display-1 {
+    font-size: 2em;
+    padding: 1em;
+    margin: 15px;
+    color: black;
+}
+
+.image-display-1:nth-of-type(1) {
+    background-color: rgba(107, 122, 143, .8);
+}
+
+.image-display-1:nth-of-type(2) {
+    background-color: rgba(220, 199, 170, .8);
+}
+
+.image-display-1:nth-of-type(3) {
+    background-color: rgba(247, 195, 49, .8);
+}
+
+.image-display-1:nth-of-type(4) {
+    background-color: rgba(247, 136, 47, .8);
+}
+
+/* For 3 column styles*/
+.triple-box {
+    height: 350px;
+    font-size: 3.5em;
+
+    text-align: center;
+    margin-top: 2px;
+    padding: .5em;
+}
+
+.triple-box:nth-of-type(1) {
+    background-color: rgba(247, 195, 49, .5)
+}
+
+.triple-box:nth-of-type(2) {
+    background-color: rgba(247, 136, 47, .85)
+}
+
+.triple-box:nth-of-type(3) {
+    background-color: rgba(247, 195, 49, .5);
+}
+
+/* Image display on cards */
+.card-images {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+
+/* For links that should not have the default style*/
+.no-style-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.no-style-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*
+.find-a-recipe {
+    display: none;
+}
+
+.product-page {
+    display: none;
+}
+*/
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cursor-point {
+    cursor: pointer;
+}
+
+.list-style {
+    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 1.1em;
+}
+
+.div-style {
+    width: 50%;
+    margin: auto;
+}
+@media(min-width: 768px) {
+
+    /* Updated styling of class for larger screens */
+    .shade-bg {
+        background-color: rgba(0, 0, 0, .5);
+        color: white;
+    }
+
+    /* Updated styling for larger screens */
+    header, 
+    footer, 
+    .triple-box:nth-of-type(3), 
+    .triple-box:nth-of-type(1) {
+        background-image: url("./img/wood-table.jpg");
+        background-size: cover;
+        background-position: center;
+        color: black;
+    }
+
+    td {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    /* Updated styling for larger screens */
+    .image-display-1 {
+        background-image: url("./img/brown-table.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+    } 
+
+    /* Hover rule for class on larger screens */
+    .image-display-1:hover {
+        border-radius: 15px;
+        background-image: url("./img/wood-table.jpg");
+        color: black;
+    }
+
+    /* Updated rules for banners on larger screens */
+
+    .banner-1 {
+        background-image: url("./img/brown-table.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .banner-2 {
+        background-image: url("./img/grass-rain.jpg");
+    }
+
+    .banner-3 {
+        background-color: unset;
+
+        padding-bottom: 20px;
+        border-radius: 25px;
+
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* Updated styling for class on larger screens */
+    .triple-box:nth-of-type(2) {
+        background-image: url("./img/bread-board.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    /* Adds hover for text */
+    .triple-box p:hover {
+        background-color: rgba(0, 0, 0, .5);
+        padding: 3rem;
+        border-radius: 20%;
+        color: white;
+    }
+
+    /* Adds background image for larger screens */
+    .light-bg {
+        background-image: url("./img/light-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        max-height: 100;
+        
+    }
+}

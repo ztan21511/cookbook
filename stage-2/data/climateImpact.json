@@ -1,0 +1,19 @@
+{
+    "highImpact" : [
+        "Ground Beef","Minced Pork","Beef Shin","Beef Kidney","Lamb Kidney","Oysters",
+        "Ham","Minced Beef","Lamb Shoulder","Lamb Leg","Tuna","Sausages","Pork","Parma Ham",
+        "Lean Minced Beef","Lamb Mince","Lamb Loin Chops","Lamb","Italian Fennel Sausages",
+        "Chorizo","Beef Fillet","Beef Brisket","Beef","Bacon"
+    ],
+
+    "mediumImpact" : [
+        "Cod","Salt Cod","Tiger Prawns","Unsalted Butter","Brie","Prosciutto","Goats Cheese",
+        "Egg","Lard","Mozzarella","Ricotta","Turkey Mince","Stilton Cheese","Clams","Duck","Duck Legs",
+        "Whole Milk","White Fish Fillets","White Fish","Shredded Monterey Jack Cheese",
+        "Shredded Mexican Cheese","Salted Butter","Salmon","Raw King Prawns","Prawns","Parmesan",
+        "Parmesan Cheese","Monterey Jack Cheese","Milk","King Prawns","Ice Cream","Heavy Cream",
+        "Gouda Cheese","Free-range Eggs, Beaten","Feta","Eggs","Egg Yolks","Egg White","Egg Rolls",
+        "Double Cream","Cubed Feta Cheese","Cream","Condensed Milk","Colby Jack Cheese","Chicken Thighs",
+        "Chicken Legs","Chicken Breasts","Chicken Breast","Chicken","Cheese","Cheese Curds","Cheddar Cheese","Butter"
+    ]
+}

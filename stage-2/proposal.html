@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Proposal</title>
+</head>
+<body>
+    <header>
+        <h1>Project Proposal: Calorie and Climate Impact Tracker</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Problem Description</h2>
+            <p>
+                There is a lack of awareness around the impact that our diets have on the environment. It is becoming more well known that producing beef is negatively impacting the environment, but there is still a large population that may not know this. There is a problem with awareness around a variety of food’s impacts on the environment. A lot of people may know about beef but may be unaware that almost all red meat contributes significantly and negatively towards climate change.
+                <a href="http://www.planetexperts.com/how-much-does-agriculture-contribute-to-global-warming/">Agriculture generates a significant portion of the world’s greenhouse gasses.</a> Articles like this one attempt to spread awareness and address the problem, but this approach may not succeed with maintaining engagement. Many people will see articles and visualizations published online and will begin to understand the significance of this problem, but these mediums are not as successful for keeping individuals engaged with the subject matter. There are very few mechanisms for reminding consumers of the environmental impact of consuming specific foods on a daily basis. We may know that eating steak is bad for the environment, but when in the grocery store someone will often not consider that when they are planning for dinner. The next day, they may see another article on Facebook about how bad red meat is for the environment. That person will have the thought to eat less red meat. But the next time that person goes shopping it is likely they have forgotten or is intentionally not considering the climate impact of their shopping decisions. 
+                To summarize, there is an awareness problem but there is also a problem of engagement. People are becoming more aware of the problem, but the next hurdle will be to make both nutrition and environmental sustainability significant factors when making diet decisions. 
+                </p>
+        </section>
+        <section>
+            <h2>Proposed Application</h2>
+            <subsection>
+                <h3>Application Description</h3>
+                <p>
+                    My proposal for a web application solution that can begin to address the problem described above is simple. Nutrition tracking platforms have been increasing in number and usage but usually aren’t differentiated in a significant way. I propose a web application that allows users to record their daily food consumption and show them their nutrition as well as a qualitative measurement for the impact their consumption had on the environment. They would be able to see specific foods impact on a scale such as “Low”, “Medium”, and “High” impact. 
+                    The proposed application is targeted at any users of existing nutrition tracking applications. The advantage of this platform is that users will be able to also receive feedback on how they can maintain or improve their diet to be more environmentally friendly. For example, if a user records that they had a hamburger patty and bun for lunch then they would then be able to see that the hamburger patty has a “High” climate impact. The goal is to make the climate impact more important and more noticeable in the user’s diet choices. This will be able to help increase awareness of the impact of different foods as well as significantly increase engagement with consumers about the climate impact of their decisions.
+                    This is an <a href="https://ndb.nal.usda.gov/ndb/doc/index/">API</a> available with food and nutrition information. There are much more limited resources to determine the climate impact of a food. This is the reason for using a generic low to high scale for impact for now. One resource for attaining this information is this study found on <a href="http://science.sciencemag.org/content/suppl/2018/05/30/360.6392.987.DC1">sciencemag.org.</a> However, this will require some transformation and matching to the data I will be pulling from the API to be used.
+                </p>
+            </subsection>
+            <subsection>
+                <h3>Application Functionality</h3>
+                <ol>
+                    <li>The user will be able to either login or create their account.</li>
+                    <li>After logging in, they are brought to a home screen. From here, they can select add a food.</li>
+                    <li>Then they will be given the choice to add it to breakfast, lunch, dinner, or as a snack. They can also choose which date to add it to.</li>
+                    <li>After selecting which meal on which day to add it to, they are given the option to search for the food they are adding to the meal using a search bar.</li>
+                    <li>Then, the user selects the food and will be shown its nutrition and climate impact information.</li>
+                    <li>The user then either confirms adding it to the meal or abandons the tasks.</li>
+                    <li>If they abandon it, they will be brought back to the home screen. If the user confirms, they will be given the option to add another food. If they select this, they will be brought back through the previously described flow.</li>
+                    <li>When the user has finished adding foods, they will then return to the home screen.</li>
+                    <li>Now that they have some information entered, they can go to past days or meals which brings them to a new screen.</li>
+                    <li>The user is given the option to click on a past day and then a past meal.</li>
+                    <li>After clicking on a specific meal, the user is shown some of the nutrition details and the climate impact rating of the foods they ate for that meal.</li>
+                    <li>When the user is done looking at past meals, they will then go back to the home screen.</li>
+                </ol>
+            </subsection>
+        </section>
+    </main>
+</body>
+</html>

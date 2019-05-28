@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+      type="image/png" 
+      href="img/chef-hat-favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Halant|Nunito+Sans" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Doug Doenges">
+    <meta name="description" content="A recipe and climate impact web application.">
+    <meta name="keywords" content="Recipe, Climate, Impact, Environment, Cook, Cooking, Food">
+    
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Recipe Impact Book</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="navbar">
+                <a href="index.html"><img src="img/chef-hat.png" alt="chef hat icon" class="header-img"></a>
+                <p>
+                    <img src="img/user-icon.png" alt="user profile icon">
+                    Hello there!
+                    <button class="border rounded" role="button">Log Out</button>
+                </p>
+            </div>
+        </div>
+    </header> 
+
+    <main>
+        <div class="jumbotron jumbotron-fluid text-white text-center banner-1">
+            <div class="container shade-bg">
+                <h1 class="display-4">Find a Recipe</h1>
+            </div>
+        </div>
+
+        <div class="light-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-sm-3 shade-bg my-3">
+                        <table>
+                            <tr class="header">
+                                <th>Filter</th>
+                                <th>Select</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col col-sm-9">
+                        <div class="row text-left m-3">
+                            <form> <!-- MAKE SURE THIS IS PROPERLY STRUCTURED FOR AJAX-->
+                                <input type="text" placeholder="Search.." name="search"> 
+                                <button><p class="fa fa-search" type="button">search</p></button>
+                            </form>
+                        </div>
+                        <div class="row">
+<!--
+                            <div class="col col-sm-12 col-md-4 my-2 d-flex">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-title">Buffalo Burger</p>
+                                        <p class="card-text">Beef burger with buffalo sauce.</p>
+                                    </div>
+                                    <div class="card-footer bg-danger">
+                                        high climate impact
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col col-sm-12 col-md-4 my-2 d-flex">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-title">Turkey Sandwich</p>
+                                        <p class="card-text">A gourmet sandwich with turkey.</p>
+                                    </div>
+                                    <div class="card-footer bg-warning">
+                                        medium climate impact
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col col-sm-12 col-md-4 my-2 d-flex">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-title">Chicken Noodle Soup</p>
+                                        <p class="card-text">Soup with chicken and noodles in it.</p>
+                                    </div>
+                                    <div class="card-footer bg-warning">
+                                        medium climate impact
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col col-sm-12 col-md-4 my-2 d-flex">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-title">Caesar Salad</p>
+                                        <p class="card-text">A caesar salad.</p>
+                                    </div>
+                                    <div class="card-footer bg-success">
+                                        Low climate impact
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col col-sm-12 col-md-4 my-2 d-flex">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-title">Lentil Soup</p>
+                                        <p class="card-text">Hearty soup of lentils and greens.</p>
+                                    </div>
+                                    <div class="card-footer bg-success">
+                                        Low climate impact
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col col-sm-12 col-md-4 my-2 d-flex">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-title">Salmon pasta</p>
+                                        <p class="card-text">Pasta with salmon in it.</p>
+                                    </div>
+                                    <div class="card-footer bg-warning">
+                                        medium climate impact
+                                    </div>
+                                </div>
+                            </div>
+-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="container-fluid text-black pt-2 border-top">
+        <div class="row">
+            <div class="col col-md-4 text-center">
+                <address>Contact me at <a href="mailto:doug.doenges@gmail.com">doug.doenges@gmail.com</a></address>
+            </div>
+            <div class="col col-md-4 text-center">
+                <p>&copy; 2019 Doug Doenges</p>
+            </div>
+            <div class="col col-md-4 text-center">
+                <cite><p>Images obtained gratefully from <a href="https://unsplash.com">Unisplash</a></p></cite>
+            </div>
+        </div>    
+    </footer>
+</body>
+</html>
